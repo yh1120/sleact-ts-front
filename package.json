@@ -1,0 +1,57 @@
+{
+  "name": "sleact-ts-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env TS_NODE_PROJECT=\\\"tsconfig-for-webpack-config.json\\\" webpack serve --env development",
+    "build": "cross-env TS_NODE_PROJECT=\\\"tsconfig-for-webpack-config.json\\\" NODE_ENV=production webpack"
+  },
+  "author": "ZeroCho",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "axios": "^0.21.1",
+    "core-js": "^3.15.2",
+    "cross-env": "^7.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.0-rc.2",
+    "@types/fork-ts-checker-webpack-plugin": "^0.4.5",
+    "@types/node": "^14.17.5",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^3.11.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.7",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "fork-ts-checker-webpack-plugin": "^6.1.0",
+    "prettier": "^2.3.2",
+    "react-refresh": "^0.10.0",
+    "style-loader": "^3.1.0",
+    "ts-node": "^10.1.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yh1120/sleact-ts-front.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yh1120/sleact-ts-front/issues"
+  },
+  "homepage": "https://github.com/yh1120/sleact-ts-front#readme",
+  "description": ""
+}
